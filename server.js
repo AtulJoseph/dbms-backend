@@ -86,4 +86,4 @@ const attend = require('./routes/attendance')
 
 app.use('/', attend)
 
-app.listen(3000);
+app.listen(process.env.PORT||3000);
